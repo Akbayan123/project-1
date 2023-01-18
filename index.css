@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Kanit&display=swap');
 body {
     margin: 0;
     font-family: 'Kanit', sans-serif;
@@ -88,6 +89,7 @@ li {
 .content-text .text2 {
     width: 600px;
     height: 44px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500px;
     font-size: 22px;
     line-height: 30px;
@@ -131,8 +133,9 @@ li {
 }
 
 .section-2 .description {
-    width: 185px;
+    width: 200px;
     height: 16px;
+    font-family: 'Inter', sans-serif;
     margin-bottom: -48px;
     font-size: 14px;
 }
@@ -148,6 +151,30 @@ li {
     width: 80%;
     margin: auto;
     justify-content: space-between;
+}
+
+.frame1 h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame1 h5 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame2 h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame2 h5 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame3 h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame3 h5 {
+    font-family: 'Inter', sans-serif;
 }
 
 .frame-img1 {
@@ -184,6 +211,8 @@ li {
 
 .section-3 .description {
     width: 550px;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     margin-left: 80px;
@@ -218,6 +247,8 @@ li {
 .search p {
    width: 495px;
    height: 22px;
+   font-family: 'Inter';
+   font-style: normal;
    font-size: 16px;
    margin-right: 75px;
    margin-top: 14px;
@@ -228,6 +259,8 @@ li {
 .search-button {
     width: 110px;
     height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
     border-radius: 30px;
     padding: 16px 24px;
     gap: 10px;
@@ -271,6 +304,8 @@ li {
 .content-text2 .text2 {
     width: 610px;
     height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 500px;
     font-size: 22px;
     line-height: 30px;
@@ -280,6 +315,8 @@ li {
 .content-text2 button{
     width: 122px;
     height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
     border-radius: 30px;
     padding: 16px 24px;
     gap: 10px;
@@ -337,4 +374,9 @@ li {
     display: flex;
     justify-content: flex-end;
     margin-right: 160px;
+}
+
+.section5-text p {
+    font-family: 'Inter';
+    font-style: normal;
 }
