@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Kanit&display=swap');
 body {
     margin: 0;
     font-family: 'Kanit', sans-serif;
+    background-color: rgba(241, 241, 241, 1);
 }
 
 .section-1 {
-    background-color: rgba(241, 241, 241, 1);
-    height: 700px;
+    padding-bottom: 100px;
 }
 
 .nav {
@@ -19,14 +20,18 @@ body {
 }
 
 .nav-menu {
-   display: flex;
-   width: 35%;
-   align-items: center;
-   justify-content: space-around;
+    display: flex;
+    width: 35%;
+    align-items: center;
+    margin-left: 100px !important;
+}
+
+.nav-text {
    font-weight: 500;
    font-size: 17px;
    line-height: 18px;
 }
+
 .nav-logo {
     width: 65%;
     display: flex;
@@ -62,11 +67,11 @@ li {
 }
 .content{ 
     display: flex;
+    flex-direction: row;
     width: 90%;
     margin: auto;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 .content-text{
@@ -76,7 +81,7 @@ li {
 }
 
 .content-text .text1{
-    width: 500px;
+    width: 600px;
     font-weight: 700px;
     font-size: 70px;
     line-height: 80px;
@@ -88,6 +93,7 @@ li {
 .content-text .text2 {
     width: 600px;
     height: 44px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500px;
     font-size: 22px;
     line-height: 30px;
@@ -131,8 +137,9 @@ li {
 }
 
 .section-2 .description {
-    width: 185px;
+    width: 200px;
     height: 16px;
+    font-family: 'Inter', sans-serif;
     margin-bottom: -48px;
     font-size: 14px;
 }
@@ -148,6 +155,30 @@ li {
     width: 80%;
     margin: auto;
     justify-content: space-between;
+}
+
+.frame1 h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame1 h5 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame2 h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame2 h5 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame3 h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.frame3 h5 {
+    font-family: 'Inter', sans-serif;
 }
 
 .frame-img1 {
@@ -171,7 +202,6 @@ li {
     padding-top: 103px;
     padding-bottom: 103px;
     margin: auto;
-    background-color: rgba(241, 241, 241, 1);
 }
 
 .section-3 .title {
@@ -184,6 +214,8 @@ li {
 
 .section-3 .description {
     width: 550px;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     margin-left: 80px;
@@ -204,8 +236,8 @@ li {
     border: 2px;
     border-color: rgba(225, 222, 231, 1);
     border-radius: 12px;
-
 }
+
 .search img {
     width: 30px;
     height: 30px;
@@ -218,16 +250,19 @@ li {
 .search p {
    width: 495px;
    height: 22px;
+   font-family: 'Inter';
+   font-style: normal;
    font-size: 16px;
    margin-right: 75px;
    margin-top: 14px;
    margin-bottom: 14px;
    color: rgb(128, 128, 127);
-;
 }
 .search-button {
     width: 110px;
     height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
     border-radius: 30px;
     padding: 16px 24px;
     gap: 10px;
@@ -240,7 +275,6 @@ li {
 
 .section-4 {
     height: 700px;
-    background-color: rgba(241, 241, 241, 1);
 }
 
 .content-2 {
@@ -271,6 +305,8 @@ li {
 .content-text2 .text2 {
     width: 610px;
     height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 500px;
     font-size: 22px;
     line-height: 30px;
@@ -280,6 +316,8 @@ li {
 .content-text2 button{
     width: 122px;
     height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
     border-radius: 30px;
     padding: 16px 24px;
     gap: 10px;
@@ -337,4 +375,9 @@ li {
     display: flex;
     justify-content: flex-end;
     margin-right: 160px;
+}
+
+.section5-text p {
+    font-family: 'Inter';
+    font-style: normal;
 }
